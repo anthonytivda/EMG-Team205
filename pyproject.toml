@@ -1,0 +1,12 @@
+name = "my-pytorch-project"
+version = "0.1.0"
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+]
+
+[tool.uv.index]
+# Use 'pytorch-cu124' name for CUDA 12.4 build or 'pytorch-cpu' for CPU-only
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
